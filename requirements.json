@@ -1,0 +1,38 @@
+{
+  "project_name": "نظام إدارة مواقف سيارات",
+  "project_type": "booking_system",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "مواقف سيارات",
+    "حجز مواقف",
+    "دفعات مواقف"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_maqafat",
+    "show_maqa",
+    "make_reservation",
+    "pay_reservation"
+  ],
+  "permissions": {
+    "guest": [
+      "index"
+    ],
+    "user": [
+      "login",
+      "register",
+      "list_maqafat",
+      "show_maqa"
+    ],
+    "admin": [
+      "login",
+      "register",
+      "list_maqafat",
+      "show_maqa",
+      "make_reservation",
+      "pay_reservation"
+    ]
+  }
+}
